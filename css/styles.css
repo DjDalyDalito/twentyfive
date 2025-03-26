@@ -20,15 +20,15 @@
     background-position: center;
     background-repeat: no-repeat;
     min-height: 86vh;
-    padding: 0pxm 50px 0px 0px;
+    padding: 0px 60px 0px 0px;
 }
 
 #header1
 {
-    order:1;
+    order:0;
     border: solid 1px black;
     width: 9%;
-    background-image: url('/img/csgorolllogo.png');
+    background-image: url('/img/google.png');
     background-size:100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -40,8 +40,8 @@
     border: solid 1px black;
     width: 4%;    
     padding-top: 40px;
-    padding-left: 5px;
-    font-size: small;
+    padding-left: 13px;
+    font-size: x-small;
 }
 
 #header3
@@ -50,8 +50,8 @@
     border: solid 1px black;
     width: 4%;
     padding-top: 40px;
-    padding-left: 5px;
-    font-size: small;
+    font-size: x-small;
+    padding-left: 2px;
 }
 
 #header4
@@ -59,47 +59,28 @@
     order:4;
     border: solid 1px black;
     width: 4%;
-    padding-top: 40px;
-    padding-left: 25px;
-}
-
-#header5
-{
-    order:5;
-    border: solid 1px black;
-    width: 5%;
-    padding-top: 40px;
-    padding-left: 4px;
-    font-size: x-small;
-}
-
-#header6
-{
-    order:6;
-    border: solid 1px black;
-    width: 4%;
-    padding-top: 40px;
-    padding-left: 3px;
+    padding-top: 50px;
+    padding-left: 2px;
     font-size: x-small;
 }
 
 #space{
-    order:7;
-    width: 39%;
+    order:5;
+    width: 54.5%;
 }
 
-#header7
+#header5
 {
-    order:8;
+    order:6;
     border: solid 1px black;
     width: 5%;
     font-size: 70%;
     padding-top: 20px;
 }
 
-#header8
+#header6
 {
-    order:9;
+    order:7;
     border: solid 1px black;
     width: 10%;
     font-size: 70%;
@@ -115,25 +96,24 @@
 
 #section1
 {
-    order:1;
     border: solid 1px black;
-    width: 16%;
+    width: 17.7%;
     text-align: center;
     padding-top: 78vh;
 }
 
 #section2
 {
+    width: 60px;
     position: relative;
     z-index: 10;
-    order: 2;
 }
 
 #section3
 {
     order:3;
     border: solid 1px black;
-    width: 20%;
+    width: 23.2%;
     text-align: center;
     padding-top: 60vh;
 }
@@ -142,14 +122,14 @@
 {
     order:4;
     border: solid 1px black;
-    width: 2.5%;
+    width: 2.5%;;
 }
 
 #section5
 {
     order:5;
     border: solid 1px black;
-    width: 20%;
+    width: 23.1%;
     text-align: center;
     padding-top: 60vh;
 }
@@ -165,7 +145,7 @@
 {
     order:7;
     border: solid 1px black;
-    width: 20%;
+    width: 23.1%;
     text-align: center;
     padding-top: 60vh;
 }
@@ -181,7 +161,7 @@
 {
     order:7;
     border: solid 1px black;
-    width: 20%;
+    width: 23.1%;
     text-align: center;
     padding-top: 60vh;
 }
@@ -212,7 +192,13 @@
     text-align: center;
 }
 
-.roulette-wheel
+/* */
+/* */
+/* */
+/* */
+/* */
+
+.roulette-wrapper
 {
     padding-top: 190px;
     position: relative;
@@ -262,8 +248,8 @@
 
 .card
 {
-    width: 75%;
-    height: 75%;
+    width: 75px;
+    height: 75px;
     margin: 3px;
     border-radius: 8px;
     border-bottom: 3px solid black;
@@ -274,7 +260,7 @@
     font: 1.5em;
 }
 
-.roulette-section
+.roulette-sections-wrapper
 {
     display: flex;
     flex: 1;
@@ -287,11 +273,204 @@
     min-height: 86vh;
 }
 
-.roulette-overlay
+.roulette-wheel-overlay
 {
     position: absolute;
     top: 0;
     bottom: 0;
     width: 100%;
     height: 100%;
+}
+
+.last100-sections-wrapper
+{
+    border: 1px solid green;
+    width: 100%;
+}
+
+#last100
+{
+    width: 50%;
+    height: 100%;
+    border: 1px solid blue;
+}
+
+/* SIDA 2 
+/* SIDA 2 
+/* SIDA 2 
+/* SIDA 2 
+/* SIDA 2 */
+
+.rewards-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/img/itemshopbackground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 86vh;
+    padding: 40px 60px;
+    border-radius: 10px;
+    color: white;
+}
+
+.rewards-content {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.rewards-content h1 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.rewards-content p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin: 10px 0;
+}
+
+.rewards-content h2 {
+    font-size: 1.2rem;
+    margin: 20px 0 10px;
+}
+
+.rewards-buttons {
+    margin: 15px 0;
+}
+
+.rewards-buttons button {
+    padding: 12px 25px;
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.rewards-buttons button:hover {
+    background-color: #444;
+    transform: scale(1.1);
+}
+
+.case-box, .rewards-content, .rewards-buttons {
+    border-radius: 15px;
+}
+
+.cases-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.case-box {
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    width: 130px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.case-box:hover {
+    transform: translateY(-8px);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: #00c74d;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.case-image {
+    width: 100%;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    border: 1px solid #222;
+}
+
+.case-image.level-3 {
+    background-image: url('/asiimov.jpg');
+}
+.case-image.level-10 {
+    background-image: url('/asiimov.jpg');
+}
+.case-image.level-20 {
+    background-image: url('/asiimov.jpg');
+}
+.case-image.level-30 {
+    background-image: url('/asiimov.jpg');
+}
+.case-image.level-40 {
+    background-image: url('/asiimov.jpg');
+}
+.case-image.level-50 {
+    background-image: url('/asiimov.jpg');
+}
+.case-image.level-60 {
+    background-image: url('/asiimov.jpg');
+}
+.case-image.level-70 {
+    background-image: url('/asiimov.jpg');
+}
+.case-image.level-80 {
+    background-image: url('/asiimov.jpg');
+}
+.case-image.level-90 {
+    background-image: url('/asiimov.jpg');
+}
+.case-image.level-100 {
+    background-image: url('/asiimov.jpg');
+}
+
+.case-label {
+    color: #fff;
+    font-size: 0.8rem;
+    margin: 5px 0;
+}
+
+.case-label span {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.cases-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #FFD700;
+}
+
+.rewards-wrapper {
+    background-attachment: fixed;
+}
+
+.rewards-content h1,
+.rewards-content p {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 0.8s forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
